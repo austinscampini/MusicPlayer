@@ -65,6 +65,9 @@ if (playButton) {
   return (
     
 <body>
+<button onClick={() => signOut()}>
+        Sign Out
+</button>
     <audio id="my-audio-element" src="./src/library/Delirious.mp3"></audio>
     <div className="music-player">
         <div className="equalizer">
