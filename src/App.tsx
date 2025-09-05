@@ -65,7 +65,7 @@ if (playButton) {
   return (
     
 <body>
-<button onClick={() => signOut()}>
+<button hidden onClick={() => signOut()}>
         Sign Out
 </button>
     <audio id="my-audio-element" src="Delirious.mp3"></audio>
